@@ -1,0 +1,28 @@
+:root {
+  font-family:'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  
+  
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li{
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+}
+ 
+
+li:hover{
+  color:#2a68ff;
+  text-decoration: underline 2px;
+  text-underline-offset: 8px;
+}
+
+.icon{
+  cursor: pointer;
+}
